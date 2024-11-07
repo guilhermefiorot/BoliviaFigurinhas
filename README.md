@@ -28,52 +28,49 @@ Bem-vindo ao **Bolivia Figurinhas**! Este é um projeto focado em coleções de 
 ### Backend (FastAPI + Poetry)
 
 1. Clone o repositório:
-   ```bash
-   git clone https://github.com/seu-usuario/bolivia-figurinhas.git
-   cd bolivia-figurinhas/backend
-  ```
-	2.	Instale as dependências do projeto usando o Poetry:
+   	```bash
+   	git clone https://github.com/seu-usuario/bolivia-figurinhas.git
+  	 cd bolivia-figurinhas/backend
+  
+2.	Instale as dependências do projeto usando o Poetry:
+  	```bash
+  	poetry install
 
-  ```bash
-  poetry install
-  ```
-	3.	Execute o servidor:
-  ```bash
-  poetry run uvicorn main:app --reload
-  ```
+3.	Execute o servidor:
+  	```bash
+  	poetry run uvicorn main:app --reload
 
 Frontend (React)
 
-	1.	Navegue até a pasta do frontend:
-  ```bash
-  cd ../frontend
-  ```
-	2.	Instale as dependências do projeto:
-  ```bash
-  npm install
-  ```
+1.	Navegue até a pasta do frontend:
+  	```bash
+  	cd ../frontend
+   
+2.	Instale as dependências do projeto:
+  	```bash
+  	npm install
+  
   ou, se estiver usando yarn:
-  ```bash
-  yarn install
-  ```
-	3.	Execute o frontend:
-  ```bash
-  npm start
-  ```
+  	```bash
+  	yarn install
+   
+3.	Execute o frontend:
+  	```bash
+  	npm start
 
 Estrutura de Diretórios
 
-	•	backend/: Contém a API desenvolvida com FastAPI.
-	•	frontend/: Contém o projeto React.
-	•	README.md: Arquivo de documentação do projeto.
+•	backend/: Contém a API desenvolvida com FastAPI.
+•	frontend/: Contém o projeto React.
+•	README.md: Arquivo de documentação do projeto.
 
 Contribuição
 
-	1.	Faça um fork do projeto.
-	2.	Crie uma branch para sua feature (git checkout -b minha-feature).
-	3.	Faça o commit das suas mudanças (git commit -am 'Adiciona nova feature').
-	4.	Envie para a branch (git push origin minha-feature).
-	5.	Abra um Pull Request.
+1.	Faça um fork do projeto.
+2.	Crie uma branch para sua feature (git checkout -b minha-feature).
+3.	Faça o commit das suas mudanças (git commit -am 'Adiciona nova feature').
+4.	Envie para a branch (git push origin minha-feature).
+5.	Abra um Pull Request.
 
 Licença
 
